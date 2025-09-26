@@ -95,7 +95,7 @@ NexTrade-Platform/
 
 ### 1) Clone and Setup
 ```bash
-git clone <repository-url>
+git clone https://github.com/Kush-Varshney/NexTrade-Platform.git
 cd NexTrade-Platform
 ```
 
