@@ -1,5 +1,5 @@
 {
-  "name": "trading-client",
+  "name": "nextrade-platform-client",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

@@ -1,4 +1,4 @@
-# 📈 Mini Trading App
+# 📈 NexTrade-Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
@@ -65,7 +65,7 @@
 ## 📁 Project Structure
 
 ```
-mini-trading-app/
+NexTrade-Platform/
 ├── client/                       # React Frontend
 │   ├── public/                   # Static assets
 │   └── src/
@@ -96,7 +96,7 @@ mini-trading-app/
 ### 1) Clone and Setup
 ```bash
 git clone <repository-url>
-cd mini-trading-app
+cd NexTrade-Platform
 ```
 
 ### 2) Manual Setup (Alternative)
@@ -111,7 +111,7 @@ npm run dev
 
 **Frontend Setup:**
 ```bash
-cd  sclient
+cd  client
 npm install
 cp  .env  # Edit with your values
 npm start
@@ -121,7 +121,7 @@ npm start
 
 **Server (.env):**
 ```env
-MONGODB_URI=mongodb://localhost:27017/mini-trading-app
+MONGODB_URI=mongodb://localhost:27017/nextrade-platform
 JWT_SECRET=your-super-secret-jwt-key-change-in-production
 JWT_EXPIRE=7d
 PORT=5001
@@ -228,7 +228,7 @@ npm run seed
 ### Environment Variables for Production
 ```env
 # Backend
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/mini-trading-app
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/nextrade-platform
 JWT_SECRET=your-production-secret-key
 NODE_ENV=production
 PORT=5001
