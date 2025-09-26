@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-16">
             <Link to="/" className="text-xl font-bold text-primary-600">
-              TradingApp
+              NexTrade-Platform
             </Link>
             <div className="flex space-x-4">
               <Link
@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="text-xl font-bold text-primary-600">
-            TradingApp
+            NexTrade-Platform
           </Link>
 
           <div className="flex space-x-8">
